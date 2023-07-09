@@ -6,9 +6,10 @@
     --p-cobalt: hsl(234, 85%, 45%);
 
     /*gradients-colors*/
-    --g-vblue: hsla(256, 72%, 46%, 1);
-    --g-rblue: hsl(241, 81%, 54%);
-    --g-violetb: hsla(256, 72%, 46%, 1);
+    --roxoclaro: hsl(252, 100%, 67%);
+    --blue: hsl(241, 81%, 54%);
+
+    --roxoescuro: hsla(256, 72%, 46%, 1);
     --g-persianb: hsla(241, 72%, 46%, 0);
 
     /* Neutral */
@@ -18,3 +19,4 @@
     --light-lavender: hsl(241, 100%, 89%);
     --dark-gray-blue: hsl(224, 30%, 27%);
 }
+

@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
-    
+
     <title>Results summary component</title>
 </head>
 
@@ -22,7 +22,7 @@
             <div class="windows-area">
                 <div class="your-result">
                     <div class="your-result-title">
-                        <h2>Your Result</h2>
+                        <p>Your Result</p>
                     </div>
                     <div class="result-number">
                         <p><span>76</span> of 100</p>
@@ -34,29 +34,32 @@
                     </div>
                 </div>
                 <div class="summary">
-                    <div class="summary-title">
-                        <h2>Summary</h2>
-                    </div>
                     <div class="summary-specifications">
-                        <ul>
-                            <li>
-                                <div class="specifications">Reaction</div>
-                                <div class="result">80 / 100</div>
-                            </li>
-                            <li>
-                                <div class="specifications">Memory</div>
-                                <div class="result">92 / 100</div>
-                            </li>
-                            <li>
-                                <div class="specifications">Verbal</div>
-                                <div class="result">61 / 100</div>
-                            </li>
-                            <li>
-                                <div class="specifications">Visual</div>
-                                <div class="result">72 / 100</div>
-                            </li>
+                        <ul class="summary-container">
+                            <div class="summary-title">
+                                <h3>Summary</h3>
+                            </div>
+                            <li class="summary-content">
+                                <div class="specifications"><p id="reaction">Reaction</p></div>
 
-                            <button type="button" class="enviar">Continue</button>
+                                <div class="result">80 / <span>100</span></div>
+                            </li>
+                            <li class="summary-content">
+                                <div class="specifications"><p id="memory">Memory</p></div>
+
+                                <div class="result">92 / <span>100</span></div>
+                            </li>
+                            <li class="summary-content">
+                                <div class="specifications"><p id="verbal">Verbal</p></div>
+
+                                <div class="result">61 / <span>100</span></div>
+                            </li>
+                            <li class="summary-content">
+                                <div class="specifications"><p id="visual">Visual</p></div>
+
+                                <div class="result">72 / <span>100</span></div>
+                            </li>
+                            <button type="button" class="send">Continue</button>
                         </ul>
                     </div>
                 </div>
